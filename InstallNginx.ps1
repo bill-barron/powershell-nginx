@@ -1,7 +1,7 @@
 ﻿Add-Type -AssemblyName System.IO.Compression.FileSystem
 
 $version = '1.15.3'
-$url = 'http://nginx.org/download/nginx-' + $version + '.zip'
+$url = 'https://nginx.org/download/nginx-' + $version + '.zip'
 $zipfile = ($PSScriptRoot + '\nginx-' + $version + '.zip')
 $extractTo = ($PSScriptRoot + '\temp')
 $extracted = ($PSScriptRoot + '\temp\nginx-' + $version)
